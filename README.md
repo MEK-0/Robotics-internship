@@ -34,3 +34,8 @@ pip install -r requirements.txt
 pip install sympy numpy matplotlib
 python fk_simulation.py
 ```
+##  License
+
+This project is licensed under the [MIT License](LICENSE) — © 2025 Mahmut Esat Kolay
+
+
