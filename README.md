@@ -11,7 +11,7 @@ This project provides a **Forward Kinematics (FK)** simulation for robotic arms 
 - [x] Calculates 3D position of the end-effector
 - [x] 2D robot arm visualization using matplotlib
 - [x] Supports 3 or more DOF arms (modular design)
-- [ ] 3D visualization support (coming soon)
+- [x] 3D visualization support (coming soon) 
 - [ ] Inverse kinematics & control algorithms (planned)
 
 ---
@@ -22,7 +22,7 @@ This project provides a **Forward Kinematics (FK)** simulation for robotic arms 
 - [SymPy](https://www.sympy.org/en/index.html) – Symbolic math library
 - [NumPy](https://numpy.org/) – Numerical computations
 - [Matplotlib](https://matplotlib.org/) – Visualization
-
+- [PyBullet](https://pybullet.org/wordpress/) - Real-Time Physics Simulation
 ---
 
 ##  Installation
@@ -32,6 +32,8 @@ git clone https://github.com/yourusername/robot-arm-fk-simulator.git
 cd robot-arm-fk-simulator
 pip install -r requirements.txt
 pip install sympy numpy matplotlib
+pip install pybullet
+pip install pybullet_data
 python fk_simulation.py
 ```
 ##  License
