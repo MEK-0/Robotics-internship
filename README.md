@@ -4,6 +4,10 @@ This project provides a **Forward Kinematics (FK)** simulation for robotic arms 
 
 ---
 
+![Main Dashboard](IIWA.PNG)
+
+
+
 ##  Features
 
 - [x] Symbolic computation of Denavit–Hartenberg (DH) transformation matrices
